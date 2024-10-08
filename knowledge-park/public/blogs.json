@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "author": "John Doe",
+    "author_image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "post_date": "2023-10-01",
+    "cover_image": "https://picsum.photos/800/400?random=1",
+    "blog_title": "Exploring the Future of AI",
+    "description": "Artificial intelligence is transforming industries and driving innovation. Learn what the future holds.",
+    "hashtag": "#AI #Technology #Innovation",
+    "reading_time": "5 min"
+  },
+  {
+    "id": 2,
+    "author": "Jane Smith",
+    "author_image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "post_date": "2023-09-15",
+    "cover_image": "https://picsum.photos/800/400?random=2",
+    "blog_title": "The Rise of Remote Work",
+    "description": "How remote work has changed the way we operate and what it means for the future of employment.",
+    "hashtag": "#RemoteWork #WFH #FutureOfWork",
+    "reading_time": "7 min"
+  },
+  {
+    "id": 3,
+    "author": "Alice Johnson",
+    "author_image": "https://randomuser.me/api/portraits/women/3.jpg",
+    "post_date": "2023-08-21",
+    "cover_image": "https://picsum.photos/800/400?random=3",
+    "blog_title": "Healthy Eating in a Fast-Paced World",
+    "description": "Tips and tricks to maintain a healthy diet despite a hectic lifestyle.",
+    "hashtag": "#Health #Nutrition #Wellness",
+    "reading_time": "6 min"
+  },
+  {
+    "id": 4,
+    "author": "Bob Williams",
+    "author_image": "https://randomuser.me/api/portraits/men/4.jpg",
+    "post_date": "2023-07-30",
+    "cover_image": "https://picsum.photos/800/400?random=4",
+    "blog_title": "The Evolution of Electric Vehicles",
+    "description": "A deep dive into how electric vehicles are shaping the automotive industry.",
+    "hashtag": "#EV #Sustainability #Innovation",
+    "reading_time": "8 min"
+  },
+  {
+    "id": 5,
+    "author": "Clara Martinez",
+    "author_image": "https://randomuser.me/api/portraits/women/5.jpg",
+    "post_date": "2023-10-03",
+    "cover_image": "https://picsum.photos/800/400?random=5",
+    "blog_title": "A Guide to Personal Finance in 2024",
+    "description": "Managing personal finances is more crucial than ever. Here's how to stay ahead in 2024.",
+    "hashtag": "#Finance #Investing #MoneyManagement",
+    "reading_time": "10 min"
+  },
+  {
+    "id": 6,
+    "author": "David Brown",
+    "author_image": "https://randomuser.me/api/portraits/men/6.jpg",
+    "post_date": "2023-09-10",
+    "cover_image": "https://picsum.photos/800/400?random=6",
+    "blog_title": "The Power of Meditation",
+    "description": "Discover how meditation can change your life and improve your mental well-being.",
+    "hashtag": "#Meditation #Mindfulness #MentalHealth",
+    "reading_time": "4 min"
+  },
+  {
+    "id": 7,
+    "author": "Emily Clark",
+    "author_image": "https://randomuser.me/api/portraits/women/7.jpg",
+    "post_date": "2023-08-12",
+    "cover_image": "https://picsum.photos/800/400?random=7",
+    "blog_title": "Traveling the World on a Budget",
+    "description": "Yes, you can travel the world without breaking the bank. Here's how.",
+    "hashtag": "#Travel #BudgetTravel #Adventure",
+    "reading_time": "9 min"
+  },
+  {
+    "id": 8,
+    "author": "Michael Davis",
+    "author_image": "https://randomuser.me/api/portraits/men/8.jpg",
+    "post_date": "2023-07-01",
+    "cover_image": "https://picsum.photos/800/400?random=8",
+    "blog_title": "How to Build a Sustainable Business",
+    "description": "Building a business that lasts requires sustainability at its core. Learn from the experts.",
+    "hashtag": "#Business #Sustainability #Entrepreneurship",
+    "reading_time": "11 min"
+  },
+  {
+    "id": 9,
+    "author": "Sarah Lopez",
+    "author_image": "https://randomuser.me/api/portraits/women/9.jpg",
+    "post_date": "2023-10-05",
+    "cover_image": "https://picsum.photos/800/400?random=9",
+    "blog_title": "Fitness Hacks for Busy People",
+    "description": "Staying fit when you're busy is possible. These hacks will show you how.",
+    "hashtag": "#Fitness #Health #Wellness",
+    "reading_time": "5 min"
+  },
+  {
+    "id": 10,
+    "author": "Daniel Evans",
+    "author_image": "https://randomuser.me/api/portraits/men/10.jpg",
+    "post_date": "2023-09-20",
+    "cover_image": "https://picsum.photos/800/400?random=10",
+    "blog_title": "The Art of Digital Marketing",
+    "description": "Mastering the skills necessary for success in the ever-evolving world of digital marketing.",
+    "hashtag": "#Marketing #DigitalMarketing #SEO",
+    "reading_time": "7 min"
+  }
+]
