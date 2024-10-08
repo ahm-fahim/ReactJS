@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="m-3 font-poppins ">
       <Header></Header>
-      <div className="flex mt-10 ">
+      <div className="flex mt-10 flex-col-reverse lg:flex-row ">
         <Blogs
           handleBookmarks={handleBookmarks}
           handleReadingTime={handleReadingTime}

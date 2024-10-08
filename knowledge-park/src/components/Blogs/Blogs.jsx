@@ -12,7 +12,7 @@ const Blogs = ({ handleBookmarks,handleReadingTime }) => {
   }, []);
 
   return (
-    <div className="md:w-2/3 flex flex-col justify-center items-center border-l-2 border-r-2">
+    <div className="w-full md:w-2/3 flex flex-col justify-center items-center border-l-2 border-r-2">
       {blogs.map((blog) => (
         <BlogCard key={blog.id} blog_data={blog} handleBookmarks={handleBookmarks} handleReadingTime={handleReadingTime}></BlogCard>
       ))}
