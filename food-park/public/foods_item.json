@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "cover_image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg",
+      "foods_name": "Spaghetti Carbonara",
+      "ingredients": ["Spaghetti", "Eggs", "Parmesan Cheese", "Pancetta", "Black Pepper"],
+      "cooking_time": "25 minutes",
+      "calories": 550,
+      "description": "Classic Italian pasta dish with a creamy egg-based sauce and crispy pancetta.",
+      "price": 15.99,
+      "speciality": "Rich, creamy texture with savory pancetta"
+    },
+    {
+      "id": 2,
+      "cover_image": "https://images.pexels.com/photos/3298639/pexels-photo-3298639.jpeg",
+      "foods_name": "Chicken Parmesan",
+      "ingredients": ["Chicken breast", "Tomato sauce", "Mozzarella cheese", "Parmesan cheese", "Breadcrumbs"],
+      "cooking_time": "40 minutes",
+      "calories": 720,
+      "description": "Crispy breaded chicken cutlets topped with tomato sauce and melted cheese.",
+      "price": 18.50,
+      "speciality": "Crispy chicken with cheesy, saucy goodness"
+    },
+    {
+      "id": 3,
+      "cover_image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+      "foods_name": "Greek Salad",
+      "ingredients": ["Cucumber", "Tomatoes", "Feta cheese", "Olives", "Red onion", "Olive oil"],
+      "cooking_time": "10 minutes",
+      "calories": 250,
+      "description": "A fresh and light salad made with crisp veggies and creamy feta cheese.",
+      "price": 10.99,
+      "speciality": "Refreshing and perfect for summer"
+    },
+    {
+      "id": 4,
+      "cover_image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+      "foods_name": "Classic Cheeseburger",
+      "ingredients": ["Ground beef", "Cheddar cheese", "Lettuce", "Tomato", "Pickles", "Burger buns"],
+      "cooking_time": "20 minutes",
+      "calories": 650,
+      "description": "Juicy beef patty topped with melted cheddar and fresh veggies in a toasted bun.",
+      "price": 12.99,
+      "speciality": "Grilled to perfection with melted cheese"
+    },
+    {
+      "id": 5,
+      "cover_image": "https://images.pexels.com/photos/1833337/pexels-photo-1833337.jpeg",
+      "foods_name": "Shakshuka",
+      "ingredients": ["Eggs", "Tomatoes", "Onion", "Bell pepper", "Spices"],
+      "cooking_time": "30 minutes",
+      "calories": 400,
+      "description": "Poached eggs in a spicy tomato and pepper sauce, served with crusty bread.",
+      "price": 14.00,
+      "speciality": "A flavorful Middle Eastern brunch dish"
+    },
+    {
+      "id": 6,
+      "cover_image": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "foods_name": "Mushroom Risotto",
+      "ingredients": ["Arborio rice", "Mushrooms", "Parmesan", "Garlic", "White wine", "Butter"],
+      "cooking_time": "45 minutes",
+      "calories": 600,
+      "description": "Creamy risotto made with sautéed mushrooms and Parmesan for a savory dish.",
+      "price": 17.50,
+      "speciality": "Rich and creamy with earthy mushroom flavor"
+    },
+    {
+      "id": 7,
+      "cover_image": "https://images.pexels.com/photos/3298639/pexels-photo-3298639.jpeg",
+      "foods_name": "Grilled Salmon",
+      "ingredients": ["Salmon fillet", "Olive oil", "Lemon", "Garlic", "Herbs"],
+      "cooking_time": "25 minutes",
+      "calories": 500,
+      "description": "Perfectly grilled salmon fillet with a lemon garlic sauce and herbs.",
+      "price": 19.99,
+      "speciality": "Healthy, light, and full of flavor"
+    },
+    {
+      "id": 8,
+      "cover_image": "https://images.pexels.com/photos/6287765/pexels-photo-6287765.jpeg",
+      "foods_name": "Buffalo Wings",
+      "ingredients": ["Chicken wings", "Hot sauce", "Butter", "Garlic powder", "Celery", "Blue cheese"],
+      "cooking_time": "50 minutes",
+      "calories": 600,
+      "description": "Spicy, crispy wings served with a creamy blue cheese dipping sauce.",
+      "price": 13.99,
+      "speciality": "Crispy, tangy, and spicy"
+    },
+    {
+      "id": 9,
+      "cover_image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg",
+      "foods_name": "Veggie Pizza",
+      "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella", "Bell peppers", "Olives", "Onions", "Mushrooms"],
+      "cooking_time": "30 minutes",
+      "calories": 400,
+      "description": "A thin-crust pizza topped with a variety of fresh vegetables and melted mozzarella.",
+      "price": 11.99,
+      "speciality": "Healthy and full of fresh veggies"
+    },
+    {
+      "id": 10,
+      "cover_image": "https://images.pexels.com/photos/533325/pexels-photo-533325.jpeg",
+      "foods_name": "Chocolate Cake",
+      "ingredients": ["Flour", "Cocoa powder", "Sugar", "Butter", "Eggs", "Vanilla"],
+      "cooking_time": "60 minutes",
+      "calories": 450,
+      "description": "Rich and moist chocolate cake with a decadent chocolate frosting.",
+      "price": 7.50,
+      "speciality": "Indulgent and perfect for chocolate lovers"
+    }
+  ]
+  
