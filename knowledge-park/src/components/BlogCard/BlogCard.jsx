@@ -3,9 +3,8 @@ import { useState } from "react";
 import { CiBookmark, CiBookmarkCheck } from "react-icons/ci";
 import { SlLike, SlDislike } from "react-icons/sl";
 
-const BlogCard = ({ blog_data }) => {
+const BlogCard = ({ blog_data, handleBookmarks,handleReadingTime }) => {
   const {
-    id,
     author,
     author_image,
     post_date,
@@ -37,14 +36,17 @@ const BlogCard = ({ blog_data }) => {
           </div>
         </div>
 
-        <div className="flex">
-          <p className="text-gray-500  text-sm mx-2">{reading_time}</p>
-          <div className="relative group">
+        <div className="flex flex-row items-center">
+          <p className="text-gray-500 text-sm mx-2">{reading_time}</p>
+          <button
+            onClick={() => handleBookmarks(blog_data)}
+            className="relative group"
+          >
             <CiBookmark className="text-2xl" />
             <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-700 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
               Bookmark
             </span>
-          </div>
+          </button>
         </div>
       </div>
       {/* author end */}
@@ -60,7 +62,7 @@ const BlogCard = ({ blog_data }) => {
       {/* reaction */}
 
       <hr className="mx-10" />
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <div className="flex flex-row gap-10 text-2xl m-5">
           <button
             className="flex gap-2 text-green-400"
@@ -77,11 +79,11 @@ const BlogCard = ({ blog_data }) => {
             <span className="text-gray-500">{dislike}</span>
           </button>
         </div>
-        <div className="m-5">
+        <button onClick={()=>handleReadingTime(reading_time)} className="m-5">
           <p className="flex items-center text-green-600">
             Mark as read <CiBookmarkCheck className="text-3xl text-green-500" />
           </p>
-        </div>
+        </button>
       </div>
     </div>
   );
@@ -89,6 +91,8 @@ const BlogCard = ({ blog_data }) => {
 
 BlogCard.propTypes = {
   blog_data: PropTypes.object.isRequired,
+    handleBookmarks: PropTypes.func,
+    handleReadingTime:PropTypes.func,
 };
 
 export default BlogCard;

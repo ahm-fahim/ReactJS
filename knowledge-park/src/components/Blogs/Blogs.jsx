@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import BlogCard from "../BlogCard/BlogCard";
+import PropTypes from "prop-types";
 
-const Blogs = () => {
+const Blogs = ({ handleBookmarks,handleReadingTime }) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -13,10 +14,14 @@ const Blogs = () => {
   return (
     <div className="md:w-2/3 flex flex-col justify-center items-center border-l-2 border-r-2">
       {blogs.map((blog) => (
-        <BlogCard key={blog.id} blog_data={blog}></BlogCard>
+        <BlogCard key={blog.id} blog_data={blog} handleBookmarks={handleBookmarks} handleReadingTime={handleReadingTime}></BlogCard>
       ))}
     </div>
   );
+};
+Blogs.propTypes = {
+    handleBookmarks: PropTypes.func,
+    handleReadingTime : PropTypes.func,
 };
 
 export default Blogs;

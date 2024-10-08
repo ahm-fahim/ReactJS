@@ -8,7 +8,7 @@
     "blog_title": "Exploring the Future of AI",
     "description": "Artificial intelligence is transforming industries and driving innovation. Learn what the future holds.",
     "hashtag": "#AI #Technology #Innovation",
-    "reading_time": "5 min"
+    "reading_time": 5
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "blog_title": "The Rise of Remote Work",
     "description": "How remote work has changed the way we operate and what it means for the future of employment.",
     "hashtag": "#RemoteWork #WFH #FutureOfWork",
-    "reading_time": "7 min"
+    "reading_time": 7
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "blog_title": "Healthy Eating in a Fast-Paced World",
     "description": "Tips and tricks to maintain a healthy diet despite a hectic lifestyle.",
     "hashtag": "#Health #Nutrition #Wellness",
-    "reading_time": "6 min"
+    "reading_time":6
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "blog_title": "The Evolution of Electric Vehicles",
     "description": "A deep dive into how electric vehicles are shaping the automotive industry.",
     "hashtag": "#EV #Sustainability #Innovation",
-    "reading_time": "8 min"
+    "reading_time":8
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "blog_title": "A Guide to Personal Finance in 2024",
     "description": "Managing personal finances is more crucial than ever. Here's how to stay ahead in 2024.",
     "hashtag": "#Finance #Investing #MoneyManagement",
-    "reading_time": "10 min"
+    "reading_time": 10
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "blog_title": "The Power of Meditation",
     "description": "Discover how meditation can change your life and improve your mental well-being.",
     "hashtag": "#Meditation #Mindfulness #MentalHealth",
-    "reading_time": "4 min"
+    "reading_time":4
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "blog_title": "Traveling the World on a Budget",
     "description": "Yes, you can travel the world without breaking the bank. Here's how.",
     "hashtag": "#Travel #BudgetTravel #Adventure",
-    "reading_time": "9 min"
+    "reading_time":9
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "blog_title": "How to Build a Sustainable Business",
     "description": "Building a business that lasts requires sustainability at its core. Learn from the experts.",
     "hashtag": "#Business #Sustainability #Entrepreneurship",
-    "reading_time": "11 min"
+    "reading_time":11
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "blog_title": "Fitness Hacks for Busy People",
     "description": "Staying fit when you're busy is possible. These hacks will show you how.",
     "hashtag": "#Fitness #Health #Wellness",
-    "reading_time": "5 min"
+    "reading_time": 5 
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "blog_title": "The Art of Digital Marketing",
     "description": "Mastering the skills necessary for success in the ever-evolving world of digital marketing.",
     "hashtag": "#Marketing #DigitalMarketing #SEO",
-    "reading_time": "7 min"
+    "reading_time": 7
   }
 ]
