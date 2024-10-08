@@ -3,8 +3,9 @@ import { useState } from "react";
 import { CiBookmark, CiBookmarkCheck } from "react-icons/ci";
 import { SlLike, SlDislike } from "react-icons/sl";
 
-const BlogCard = ({ blog_data, handleBookmarks,handleReadingTime }) => {
+const BlogCard = ({ blog_data, handleBookmarks, handleReadingTime }) => {
   const {
+    id,
     author,
     author_image,
     post_date,
@@ -79,7 +80,10 @@ const BlogCard = ({ blog_data, handleBookmarks,handleReadingTime }) => {
             <span className="text-gray-500">{dislike}</span>
           </button>
         </div>
-        <button onClick={()=>handleReadingTime(reading_time)} className="m-5">
+        <button
+          onClick={() => handleReadingTime(id, reading_time)}
+          className="m-5"
+        >
           <p className="flex items-center text-green-600">
             Mark as read <CiBookmarkCheck className="text-3xl text-green-500" />
           </p>
@@ -91,8 +95,8 @@ const BlogCard = ({ blog_data, handleBookmarks,handleReadingTime }) => {
 
 BlogCard.propTypes = {
   blog_data: PropTypes.object.isRequired,
-    handleBookmarks: PropTypes.func,
-    handleReadingTime:PropTypes.func,
+  handleBookmarks: PropTypes.func,
+  handleReadingTime: PropTypes.func,
 };
 
 export default BlogCard;

@@ -12,9 +12,12 @@ function App() {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
   };
-  const handleReadingTime = (time) => {
+  const handleReadingTime = (id,time) => {
     const newTime = readingTime + time;
-    setReadingTime(newTime);
+	  setReadingTime(newTime);
+	  
+	  const remainingBookmark = bookmarks.filter(bookmark => bookmark.id != id);
+	  setBookmarks(remainingBookmark);
   };
   return (
     <div className="m-3 font-poppins ">
