@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { CiClock1 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
 
-const RecipeCard = ({ foodsItem }) => {
+const RecipeCard = ({ foodsItem, handleCook }) => {
   const {
     cover_image,
     foods_name,
@@ -25,7 +25,9 @@ const RecipeCard = ({ foodsItem }) => {
           />
         </figure>
         <div className="card-body ">
-          <h2 className="card-title font-anton text-black mt-[-20px]">{foods_name}</h2>
+          <h2 className="card-title font-anton text-black mt-[-20px]">
+            {foods_name}
+          </h2>
           <div className="h-40 overflow-y-scroll">
             <ul className="text-gray-400 list-disc">
               <li>
@@ -59,7 +61,9 @@ const RecipeCard = ({ foodsItem }) => {
 
           <div className="card-actions justify-end items-center mt-2">
             <p className="text-2xl text-orange-400">${price}</p>
-            <button className="bg-orange-400 text-white px-5 rounded-lg py-1">Buy Now</button>
+            <button onClick={()=>handleCook(foodsItem)} className="bg-orange-400 text-white px-5 rounded-lg py-1">
+              Want to Cook 
+            </button>
           </div>
         </div>
       </div>
@@ -69,6 +73,7 @@ const RecipeCard = ({ foodsItem }) => {
 
 RecipeCard.propTypes = {
   foodsItem: PropTypes.object,
+  handleCook: PropTypes.func,
 };
 
 export default RecipeCard;
