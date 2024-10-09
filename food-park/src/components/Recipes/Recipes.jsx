@@ -6,6 +6,8 @@ const Recipes = () => {
   const [foodCard, setFoodCard] = useState([]);
   const [cook, setCook] = useState([]);
   const [cookCount, setCookCount] = useState(0);
+  const [currentlyCookCount, setCurrentlyCookCount] = useState(0);
+  const [currentlyCooking, setCurrentlyCooking] = useState([]);
 
   useEffect(() => {
     fetch(`foods_item.json`)
@@ -19,7 +21,15 @@ const Recipes = () => {
     setCookCount(cookCount + 1);
   };
   const handleCurrentlyCooking = (cooking_items) => {
-    console.log("currently cooked hi hi hi", cooking_items.id);
+    const previous_cooking = [...currentlyCooking, cooking_items];
+    setCurrentlyCooking(previous_cooking);
+
+    const remainingCooking = cook.filter(
+      (remain) => remain.id != cooking_items.id
+    );
+    setCook(remainingCooking);
+    setCurrentlyCookCount(currentlyCookCount + 1);
+    setCookCount(cookCount - 1);
   };
   return (
     <div>
@@ -43,6 +53,8 @@ const Recipes = () => {
             cook={cook}
             cookCount={cookCount}
             handleCurrentlyCooking={handleCurrentlyCooking}
+            currentlyCookCount={currentlyCookCount}
+            currentlyCooking={currentlyCooking}
           ></OrderedCard>
         </div>
       </div>
