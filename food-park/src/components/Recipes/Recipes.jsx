@@ -38,7 +38,7 @@ const Recipes = () => {
       </h1>
       <div className="border border-orange-400 w-24 mx-10"></div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-6 mt-10 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-6 mt-10 lg:gap-4">
         <div className="col-span-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
           {foodCard.map((foodsItem) => (
             <RecipeCard

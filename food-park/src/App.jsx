@@ -6,7 +6,7 @@ import Recipes from './components/Recipes/Recipes'
 function App() {
 
   return (
-    <div className="bg-white h-full p-5 font-poppins">
+    <div className="bg-white h-full lg:p-5 font-poppins">
       <Header></Header>
       <Hero></Hero>
       <Recipes></Recipes>
