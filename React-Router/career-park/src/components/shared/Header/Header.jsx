@@ -5,23 +5,23 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   const links = (
     <>
-      <li className="hover:text-info">
+      <li className="hover:text-success">
         <NavLink to="/">Home</NavLink>
       </li>
-      <li className="hover:text-info">
+      <li className="hover:text-success">
         <NavLink to="/statistic">Statistic</NavLink>
       </li>
-      <li className="hover:text-info">
+      <li className="hover:text-success">
         <NavLink to="/appliedJobs">Applied Jobs</NavLink>
       </li>
-      <li className="hover:text-info">
+      <li className="hover:text-success">
         <NavLink to="/blog">Blog</NavLink>
       </li>
     </>
   );
   return (
-    <div className="lg:mx-16">
-      <div className="navbar bg-base-100">
+    <div className="bg-green-100 lg:px-16">
+      <div className="navbar">
         <div className="navbar-start">
           <a className="text-xl font-anton">Career Park</a>
         </div>
@@ -29,7 +29,7 @@ const Header = () => {
           <ul className="flex gap-10 px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-sm btn-info mx-2">Start Applying</a>
+          <a className="btn btn-sm btn-success mx-2">Start Applying</a>
         </div>
 
         <div className="dropdown dropdown-left lg:hidden">

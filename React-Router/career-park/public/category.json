@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "category": "Software Development",
+      "available_seat": 120
+    },
+    {
+      "id": 2,
+      "category": "Finance & Accounting",
+      "available_seat": 85
+    },
+    {
+      "id": 3,
+      "category": "Marketing & Sales",
+      "available_seat": 60
+    },
+    {
+      "id": 4,
+      "category": "Healthcare & Medical",
+      "available_seat": 45
+    }
+  ]
+  
