@@ -6,9 +6,9 @@ const Hero = () => {
     <div>
       <div className="hero bg-green-100 min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={cover} className="h-full w-full mb-[-42px]" />
+          <img src={cover} className="h-full w-full lg:mb-[-42px]" />
           <div>
-            <h1 className="text-5xl font-bold font-anton">
+            <h1 className="text-5xl font-bold font-anton text-black">
               One Step Closer To Your Dream Job
             </h1>
             <p className="py-6 text-gray-500">

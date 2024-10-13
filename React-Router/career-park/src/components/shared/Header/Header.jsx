@@ -20,7 +20,7 @@ const Header = () => {
     </>
   );
   return (
-    <div className="bg-green-100 lg:px-16">
+    <div className="bg-green-100 lg:px-16 text-black">
       <div className="navbar">
         <div className="navbar-start">
           <a className="text-xl font-anton">Career Park</a>

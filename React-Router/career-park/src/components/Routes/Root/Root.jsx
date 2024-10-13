@@ -5,7 +5,7 @@ import Header from "../../shared/Header/Header";
 
 const Root = () => {
   return (
-    <div>
+    <div className="bg-white font-poppins">
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>

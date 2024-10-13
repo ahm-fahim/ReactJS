@@ -1,23 +1,26 @@
 [
-    {
-      "id": 1,
-      "category": "Software Development",
-      "available_seat": 120
-    },
-    {
-      "id": 2,
-      "category": "Finance & Accounting",
-      "available_seat": 85
-    },
-    {
-      "id": 3,
-      "category": "Marketing & Sales",
-      "available_seat": 60
-    },
-    {
-      "id": 4,
-      "category": "Healthcare & Medical",
-      "available_seat": 45
-    }
-  ]
-  
+  {
+    "id": 1,
+    "category": "Software Development",
+    "available_seat": 45,
+    "icon": "FaLaptopCode"
+  },
+  {
+    "id": 2,
+    "category": "Marketing",
+    "available_seat": 30,
+    "icon": "FaBullhorn"
+  },
+  {
+    "id": 3,
+    "category": "Finance & Accounting",
+    "available_seat": 20,
+    "icon": "FaChartLine"
+  },
+  {
+    "id": 4,
+    "category": "Healthcare",
+    "available_seat": 15,
+    "icon": "FaHeartbeat"
+  }
+]

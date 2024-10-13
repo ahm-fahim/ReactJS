@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className="mt-20">
       <hr className="mx-16" />
-      <footer className="footer bg-base-100 text-base-content p-10">
-        <aside>
-          <FaHandsHelping className="text-8xl"/>
+      <footer className="footer bg-base-100 text-center text-base-content p-10">
+        <aside className="flex flex-col justify-center items-center">
+          <FaHandsHelping className="text-8xl text-success"/>
           <p>
             <span className="font-anton text-4xl">Career Park</span>
             <br />
@@ -28,7 +28,7 @@ const Footer = () => {
           <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a>
         </nav>
-        <nav>
+        <nav className="flex flex-col justify-end items-end">
           <h6 className="footer-title">Legal</h6>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
