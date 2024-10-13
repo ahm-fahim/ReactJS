@@ -16,15 +16,15 @@ const Jobs = ({ jobsList }) => {
     job_location,
   } = jobsList;
   return (
-    <div className="bg-white rounded-md shadow-md p-10">
+    <div className="bg-white rounded-md shadow-md p-5 lg:p-10">
       <img
         src={company_logo}
         alt="company logo"
-        className="w-28 rounded-lg mb-5"
+        className="w-28 rounded-lg mb-5 border-l-2 border-r-2 border-green-400"
       />
       <h1 className="text-xl font-bold">{job_title}</h1>
       <p className="text-sm text-gray-400">{company}</p>
-      <div className="flex flex-row gap-10 my-2">
+      <div className="flex flex-row gap-2 lg:gap-10 my-2">
         <p className="border border-success rounded-md px-2 bg-green-50">
           {job_type}
         </p>
@@ -32,7 +32,7 @@ const Jobs = ({ jobsList }) => {
           {works_duration}
         </p>
       </div>
-      <div className="flex flex-row gap-10 my-2">
+      <div className="flex flex-row gap-2 lg:gap-10 my-2">
         <p className="flex flex-row items-center">
           <IoLocationSharp className="mr-2 text-2xl" /> {job_location}
         </p>
@@ -40,8 +40,9 @@ const Jobs = ({ jobsList }) => {
           <RiMoneyDollarCircleLine className="mr-2 text-2xl" />
           Salary: {salary_range}
         </p>
-      </div>
-      <Link to={`/jobDetails/${id}`} className="btn btn-success btn-sm">
+          </div>
+          <hr className="mx-10 mt-5" />
+      <Link to={`/jobDetails/${id}`} className="btn btn-success btn-sm mt-5">
         View Details
       </Link>
     </div>
