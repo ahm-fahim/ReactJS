@@ -5,12 +5,20 @@ import { RiMoneyDollarCircleLine } from "react-icons/ri";
 import { MdOutlineSubtitles, MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { saveApplication } from "../../../utility/localstorage";
 
 const JobDetails = () => {
   const jobs = useLoaderData();
   const { id } = useParams();
+  const idInt = parseInt(id);
   const job = jobs.find((job) => job.id === parseInt(id));
 
+  const handleApplication = () => {
+    saveApplication(idInt);
+    toast("Successfully Applied!");
+  };
   const {
     company,
     company_logo,
@@ -28,7 +36,6 @@ const JobDetails = () => {
     email,
     bonus,
   } = job;
-  console.log(company);
 
   return (
     <div>
@@ -114,10 +121,14 @@ const JobDetails = () => {
               {job_location}
             </p>
           </div>
-          <button className="btn btn-success w-full btn-sm  mt-5">
+          <button
+            onClick={handleApplication}
+            className="btn btn-success w-full btn-sm  mt-5"
+          >
             Apply Now
           </button>
         </div>
+        <ToastContainer />
       </div>
     </div>
   );

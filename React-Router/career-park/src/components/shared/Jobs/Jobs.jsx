@@ -4,7 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-const Jobs = ({ jobsList }) => {
+const Jobs = ({ jobsList,styled }) => {
   const {
     id,
     company,
@@ -16,7 +16,7 @@ const Jobs = ({ jobsList }) => {
     job_location,
   } = jobsList;
   return (
-    <div className="bg-white rounded-md shadow-md p-5 lg:p-10">
+    <div className={`bg-white rounded-md shadow-md p-5 lg:p-10 ${styled ? "mt-5 border-2 border-green-500": " "}`}>
       <img
         src={company_logo}
         alt="company logo"
