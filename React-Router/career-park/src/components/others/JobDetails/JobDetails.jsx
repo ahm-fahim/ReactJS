@@ -26,15 +26,15 @@ const JobDetails = () => {
     job_location,
     phone_number,
     email,
-    bonous: bonus,
+    bonus,
   } = job;
   console.log(company);
 
   return (
-      <div>
-          <div className="bg-green-100 h-60 flex justify-center items-center">
-              <h1 className="font-anton text-4xl">Job Details</h1>
-          </div>
+    <div>
+      <div className="bg-green-100 h-60 flex justify-center items-center">
+        <h1 className="font-anton text-4xl">Job Details</h1>
+      </div>
       <div className="w-5/6 m-auto grid grid-cols-1 lg:grid-cols-2 gap-10 mt-16">
         <div>
           <div className="my-2">
@@ -63,6 +63,14 @@ const JobDetails = () => {
               ))}
             </p>
           </div>
+          <div className="my-2">
+            <h1 className="text-black">Job Type :</h1>
+            <p className="text-gray-500 text-sm">{job_type}</p>
+          </div>
+          <div className="my-2">
+            <h1 className="text-black">Job Time :</h1>
+            <p className="text-gray-500 text-sm">{works_duration}</p>
+          </div>
         </div>
         <div>
           <div className="bg-green-100 p-4 rounded-lg">
@@ -70,14 +78,20 @@ const JobDetails = () => {
               Job Details
             </h2>
             <p className="text-gray-500 flex flex-row items-center">
+              <MdOutlineSubtitles className="mr-1 text-xl text-green-500" />{" "}
+              <span className="text-black">Job Title : </span>
+              {job_title}
+            </p>
+            <p className="text-gray-500 flex flex-row items-center">
               <RiMoneyDollarCircleLine className="mr-1 text-xl text-green-500" />{" "}
               <span className="text-black">Salary : </span>
               {salary_range}
             </p>
+
             <p className="text-gray-500 flex flex-row items-center">
-              <MdOutlineSubtitles className="mr-1 text-xl text-green-500" />{" "}
-              <span className="text-black">Job Title : </span>
-              {job_title}
+              <RiMoneyDollarCircleLine className="mr-1 text-xl text-green-500" />{" "}
+              <span className="text-black">Bonus : </span>
+              {bonus}
             </p>
 
             <h2 className="font-anton text-black mt-5 mb-2">
