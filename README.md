@@ -2,20 +2,20 @@
 
 # Installation
 
-# create project
+## Create project
 
 ```
 npm create vite@latest my-app -- --template react
 ```
 
-# install react router
+## Install react router
 
 ```
 npm install react-router-dom
 npm install localforage match-sorter sort-by
 ```
 
-## add in the main.jsx file
+### Add in the 'main.jsx' file
 
 ```
 import * as React from "react";
@@ -41,7 +41,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ```
 
-# install tailwind css
+## Install tailwind css
 
 ```
 npm install -D tailwindcss
@@ -60,7 +60,7 @@ module.exports = {
 }
 ```
 
-## add on index.css file
+### Add on 'index.css' file
 
 ```
 @tailwind base;
@@ -68,10 +68,11 @@ module.exports = {
 @tailwind utilities;
 ```
 
-# install daisyUI
+## Install daisyUI
 ```
 npm i -D daisyui@latest
 ```
+### Add on 'tailwind.config.js'
 ```
 module.exports = {
   //...
@@ -82,7 +83,7 @@ module.exports = {
 
 ```
 
-# Add custom font family
+## Add custom font family on 'index.css'
 
 ```
 /* poppins */
@@ -99,13 +100,13 @@ module.exports = {
 }
 ```
 
-# install react icons
+# Install React Icons
 
 ```
 npm install react-icons --save
 ```
 
-## in your eslint.config.js file ;
+## In your 'eslint.config.js' file ;
 
 ```
 env: {
