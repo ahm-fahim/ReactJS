@@ -115,8 +115,16 @@ env: {
    es6: true
  },
 ```
+# -----------------------------------------
+##              Firebase setup 
+# -----------------------------------------
 
-# some projects
+```
+npm install firebase
+``
+
+
+# Some projects on live
 
 [Food Park](simple-bell.surge.sh)
 [Knowledge Park](calculating-bell.surge.sh)
