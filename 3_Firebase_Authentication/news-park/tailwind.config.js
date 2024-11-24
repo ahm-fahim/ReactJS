@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"], // Properly define sans-serif
         anton: ["Anton", "sans-serif"],
+        bokor: ["Bokor", "system-ui"],
       }
     },
   },
