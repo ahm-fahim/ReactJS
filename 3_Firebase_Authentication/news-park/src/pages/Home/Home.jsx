@@ -1,8 +1,9 @@
+import NewsCard from "../../components/NewsCard/NewsCard";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="font-poppins text-5xl">Home</h1>
+    <div className="p-4">
+      <NewsCard/>
     </div>
   );
 };
