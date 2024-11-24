@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Outlet } from "react-router-dom";
 import LeftNav from "../components/shared/LeftNav/LeftNav";
 import RightNav from "../components/shared/RightNav/RightNav";
@@ -7,10 +7,12 @@ import Navbar from "../components/shared/Navbar/Navbar";
 
 const MainLayouts = () => {
   return (
-    <div className="font-poppins bg-white h-screen text-gray-800">
+    <div className="font-poppins bg-white h-screen text-gray-800 px-5">
       <Header />
-      <Navbar />
-      <div className="grid lg:grid-cols-6 ">
+      <div className="sticky top-0 z-40">
+        <Navbar />
+      </div>
+      <div className="grid lg:grid-cols-6 px-2 z-10 ">
         <div>
           <LeftNav />
         </div>
