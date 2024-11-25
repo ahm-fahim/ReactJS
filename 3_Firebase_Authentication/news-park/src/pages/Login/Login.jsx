@@ -30,7 +30,7 @@ const Login = () => {
           <button className="btn btn-neutral btn-sm w-full my-3">Login Now</button>
         </div>
         <p className="text-gray-500 py-4">
-          Don't Have An Accounts?{" "}
+          Don&apos;t Have An Accounts?{" "}
           <Link to="/register" className="text-orange-400 font-bold">Register Here Now</Link>{" "}
         </p>
       </div>
