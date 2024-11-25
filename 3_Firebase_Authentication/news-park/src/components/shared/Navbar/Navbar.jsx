@@ -1,17 +1,30 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { RiAccountPinCircleFill } from "react-icons/ri";
+import { useContext} from "react";
+import { AuthContext } from "../../../providers/AuthProviders";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+        // Sign-out successful.
+      })
+      .catch((error) => {
+        // An error happened.
+      });
+  };
+
   const navLink = [
     <li key="home">
       <Link to="/">Home</Link>
     </li>,
     <li key="about">
-      <Link to="/">About</Link>
+      <Link to="/about">About</Link>
     </li>,
     <li key="feedback">
-      <Link to="/">Feedback</Link>
+      <Link to="/feedback">Feedback</Link>
     </li>,
   ];
 
@@ -49,7 +62,21 @@ const Navbar = () => {
         </div>
         <div className="navbar-end flex gap-2 ">
           <RiAccountPinCircleFill className="text-gray-900 text-3xl" />
-          <Link to="/login" className="bg-gray-900 px-5 text-white rounded-md py-0.5 ">Login</Link>
+          {user ? (
+            <Link
+              onClick={handleLogOut}
+              className="bg-gray-900 px-5 text-white rounded-md py-0.5 "
+            >
+              Logout
+            </Link>
+          ) : (
+            <Link
+              to="/login"
+              className="bg-gray-900 px-5 text-white rounded-md py-0.5 "
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </div>
