@@ -130,3 +130,5 @@ npm install firebase
 [Knowledge Park](calculating-bell.surge.sh)
 
 [Career Park](weak-texture.surge.sh)
+
+[News Park](https://news-park-f91bb.web.app/)
