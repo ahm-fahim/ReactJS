@@ -121,7 +121,7 @@ env: {
 
 ```
 npm install firebase
-``
+```
 
 
 # Some projects on live
